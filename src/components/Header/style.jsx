@@ -30,7 +30,7 @@ export const Header = styled.section`
 
 export const Title = styled.h1`
     margin-top: 40vh;
-    font-size: 3em;
+    font-size: 2.7em;
     align-self: center;
     letter-spacing: 3px;
     font-weight: bolder;

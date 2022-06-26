@@ -8,7 +8,7 @@ export default function Header(){
             <S.Wrapper>
                 <S.Header>
                     <Navbar/>
-                    <S.Title>Recipes</S.Title>
+                    <S.Title>RECIPES</S.Title>
                     <S.Logo src={logo} alt="Logo" className='logo'/>
                 </S.Header>
             </S.Wrapper>
