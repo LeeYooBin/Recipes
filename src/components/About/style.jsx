@@ -41,6 +41,14 @@ export const Line = styled.div`
     width: 25vw;
     height: 1vh;
     background-color: black;
+
+    @media screen and (min-width: 760px){
+        width: 12vw;
+    }
+
+    @media screen and (min-width: 920px){
+        width: 8vw;
+    }
 `;
 
 export const Text = styled.p`

@@ -24,16 +24,21 @@ export const Main = styled.div`
 
 export const Menu = styled.ul`
     height: 20vh;
-    margin: 10vh 0 3vh 0;
+    margin: 10vh 8vw 3vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
     @media screen and (min-width: 700px){
-        width: 40%;
+        margin-right: 0;
+        width: 50%;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    @media screen and (min-width: 920px){
+        width: 40%;
     }
 `;
 
@@ -81,7 +86,7 @@ export const copyright = styled.div`
     text-align: justify;
     background-color: #446061;
     display: flex;
-    align-items: center;
+    justify-content: center;
 
     @media screen and (min-width: 700px){
         font-size: 1em;
