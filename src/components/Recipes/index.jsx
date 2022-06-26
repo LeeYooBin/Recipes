@@ -6,7 +6,7 @@ import img3 from '../../img/foto3.png';
 
 export default function Recipes(){
     return(
-        <S.Wrapper>
+        <S.Wrapper id='recipes'>
             <S.Title>LATEST RECIPES</S.Title>
             <S.MainLine />
             <S.Recipes>

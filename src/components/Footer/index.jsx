@@ -9,9 +9,9 @@ export default function Footer(){
         <S.Wrapper>
             <S.Main>    
                 <S.Menu>
-                    <li><S.Link href="#">About</S.Link></li>
-                    <li><S.Link href="#">Recipes</S.Link></li>
-                    <li><S.Link href="#">Subscribe</S.Link></li>
+                    <li><S.Link href="#about">About</S.Link></li>
+                    <li><S.Link href="#recipes">Recipes</S.Link></li>
+                    <li><S.Link href="#subscribe">Subscribe</S.Link></li>
                 </S.Menu>
                 <S.SocialMedias>
                     <a href="#"><S.Icons src={instagram} alt="" /></a>

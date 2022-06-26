@@ -3,7 +3,7 @@ import aboutImg from '../../img/colher.png';
 
 export default function About(){
     return(
-        <S.About>
+        <S.About id='about'>
             <S.Image src={aboutImg} alt="" />
             <S.Wrapper>
                 <S.Title>ABOUT</S.Title>

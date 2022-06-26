@@ -19,9 +19,9 @@ export default function Navbar() {
   return (
     <div className="nav">
       <ul className={active}>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Recipes</a></li>
-        <span><li><a href="#">Subscribe</a></li></span>
+        <li><a href="#about">About</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <span><li><a href="#subscribe">Subscribe</a></li></span>
       </ul>
 
       <div onClick={navToggle} className={icon}>
