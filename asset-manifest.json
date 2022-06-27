@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Recipes/static/css/main.20853d7b.css",
-    "main.js": "/Recipes/static/js/main.ab0db953.js",
+    "main.js": "/Recipes/static/js/main.e3518f5f.js",
     "static/media/cover.png": "/Recipes/static/media/cover.7ccda1b9f34fc7b23bd8.png",
     "static/media/colher.png": "/Recipes/static/media/colher.054c6b97dc4435872d98.png",
     "static/media/foto1.png": "/Recipes/static/media/foto1.6cf44c8d7f5868bef2f1.png",
@@ -10,10 +10,10 @@
     "static/media/foto2.png": "/Recipes/static/media/foto2.0430309e784773200e97.png",
     "index.html": "/Recipes/index.html",
     "main.20853d7b.css.map": "/Recipes/static/css/main.20853d7b.css.map",
-    "main.ab0db953.js.map": "/Recipes/static/js/main.ab0db953.js.map"
+    "main.e3518f5f.js.map": "/Recipes/static/js/main.e3518f5f.js.map"
   },
   "entrypoints": [
     "static/css/main.20853d7b.css",
-    "static/js/main.ab0db953.js"
+    "static/js/main.e3518f5f.js"
   ]
 }
