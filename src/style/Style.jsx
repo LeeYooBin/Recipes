@@ -243,13 +243,14 @@ export const FooterWrapper = styled.div`
 
 export const FooterMenu = styled.ul`
     height: 20vh;
-    margin: 10vh 0 3vh 0;
+    margin: 10vh 8vw 3vh 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
     @media screen and (min-width: 700px){
+        margin-right: 0;
         width: 50%;
         flex-direction: row;
         justify-content: space-between;
