@@ -1,4 +1,4 @@
-import * as S from './style';
+import * as S from '../../style/Default';
 import Header from "../../components/Header";
 import Recipes from '../../components/Recipes';
 import About from '../../components/About/Index';

@@ -1,12 +1,14 @@
-import * as S from './style';
+import * as S from '../../style/Style';
 
 export default function Subscribe(){
     return(
-        <S.Wrapper id='subscribe'>
-            <S.Title>SUBSCRIBE</S.Title>
-            <S.Text>Sign up for newsletter</S.Text>
-            <S.Input type="email" placeholder='Your email'/>
-            <S.Submit type='submit'>SUBMIT</S.Submit>
-        </S.Wrapper>
+        <>
+            <S.Subscriber id='subscribe'>
+                <S.SubTitle>SUBSCRIBE</S.SubTitle>
+                <S.SubscriberText>Sign up for newsletter</S.SubscriberText>
+                <S.EmailInput type="email" placeholder='Your email'/>
+                <S.SubmitButton type='submit'>SUBMIT</S.SubmitButton>
+            </S.Subscriber>
+        </>
     );
 }
